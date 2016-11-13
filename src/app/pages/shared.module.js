@@ -19,6 +19,7 @@ var search_page_1 = require("./search/search.page");
 //Components
 var header_component_1 = require("../components/dummy/header/header.component");
 var search_component_1 = require("../components/smart/search.component/search.component");
+var dropdown_component_1 = require("../components/dummy/dropdown/dropdown.component");
 var SharedModule = (function () {
     function SharedModule() {
     }
@@ -31,7 +32,7 @@ var SharedModule = (function () {
     SharedModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule, http_1.HttpModule, http_1.JsonpModule],
-            declarations: [search_page_1.SearchPage, header_component_1.Header, search_component_1.Search],
+            declarations: [search_page_1.SearchPage, header_component_1.Header, search_component_1.Search, dropdown_component_1.Dropdown],
             exports: [common_1.CommonModule, forms_1.FormsModule, search_page_1.SearchPage, header_component_1.Header, search_component_1.Search]
         }), 
         __metadata('design:paramtypes', [])

@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var SearchPage = (function () {
     function SearchPage() {
-        this.title = 'Play Me';
+        this.title = 'Explore Sound';
         this.button = 'Find';
     }
     SearchPage.prototype.sharedFunction = function () {
@@ -20,7 +20,7 @@ var SearchPage = (function () {
     SearchPage = __decorate([
         core_1.Component({
             selector: 'search-page',
-            template: "\n<div>\n    <p>\n        Use the form below to search music, artists or albums\n    </p>\n    <search></search>\n</div>\n  "
+            template: "\n<div>\n    <search></search>\n</div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], SearchPage);

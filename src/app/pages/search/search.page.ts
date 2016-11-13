@@ -5,15 +5,12 @@ import {IPage} from "../pages.interface";
     selector: 'search-page',
     template: `
 <div>
-    <p>
-        Use the form below to search music, artists or albums
-    </p>
     <search></search>
 </div>
   `
 })
 export class SearchPage implements IPage {
-    public title: string = 'Play Me';
+    public title: string = 'Explore Sound';
     public button: any = 'Find';
 
     constructor() {
