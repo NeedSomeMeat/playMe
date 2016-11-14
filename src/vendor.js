@@ -8,4 +8,5 @@ require('@angular/http');
 require('@angular/router');
 // RxJS
 require('rxjs');
+require('immutable');
 //# sourceMappingURL=vendor.js.map

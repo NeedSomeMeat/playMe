@@ -31,8 +31,8 @@ var Header = (function () {
     Header = __decorate([
         core_1.Component({
             selector: 'header',
-            styleUrls: ['./header.component.css'],
-            template: "\n<div class=\"header-block\">\n    <h1>{{title}}</h1>\n    <div class=\"header-button\">\n        <button *ngIf=\"button\" type=\"button\" class=\"btn btn-primary\" (click)=\"onBtnClick()\">\n            {{button}}\n        </button>\n    </div>\n</div>\n  "
+            styleUrls: ['./header.component.less'],
+            template: "\n<div class=\"header-block\">\n    <div class=\"header-button back\">\n        <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\n    </div>\n    <h1>{{title}}</h1>\n    <div class=\"header-button search\">\n        <span class=\"glyphicon glyphicon-search\" aria-hidden=\"true\" (click)=\"onBtnClick()\"></span>\n    </div>\n</div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], Header);
