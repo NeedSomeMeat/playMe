@@ -20,6 +20,11 @@ var BackendService = (function () {
             .cache()
             .map(function (res) { return res.json(); });
     };
+    BackendService.prototype.get = function (url) {
+        return this.http.get(url)
+            .cache()
+            .map(function (res) { return res.json(); });
+    };
     BackendService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [http_1.Http])

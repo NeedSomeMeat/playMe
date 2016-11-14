@@ -14,4 +14,10 @@ export class BackendService {
             .cache()
             .map((res: Response) => <Object[]>res.json())
     }
+
+    public get(url:string): Observable<{}> {
+        return this.http.get(url)
+            .cache()
+            .map((res: Response) => <Object[]>res.json())
+    }
 }

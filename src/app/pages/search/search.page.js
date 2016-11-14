@@ -9,20 +9,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var dataStorage_service_1 = require("../../services/dataStorage.service");
 var SearchPage = (function () {
-    function SearchPage() {
-        this.title = 'Play Me';
+    function SearchPage(store) {
+        this.store = store;
+        this.title = 'Explore Sound';
         this.button = 'Find';
+        store.searchData.subscribe(function (res) {
+            return console.log('SSS ', res);
+        });
     }
+    SearchPage.prototype.searchModelHandler = function (searchParams) {
+        this.store.searchFor(searchParams);
+    };
     SearchPage.prototype.sharedFunction = function () {
         console.log('CLICKED');
     };
     SearchPage = __decorate([
         core_1.Component({
             selector: 'search-page',
-            template: "\n<div>\n    <p>\n        Use the form below to search music, artists or albums\n    </p>\n    <search></search>\n</div>\n  "
+            template: "\n<div>\n    <search (searchModel)=\"searchModelHandler($event)\"></search>\n    <music-stuff-container [data]=\"store.searchData | async\"></music-stuff-container>\n</div>\n  "
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [dataStorage_service_1.DataStorage])
     ], SearchPage);
     return SearchPage;
 }());

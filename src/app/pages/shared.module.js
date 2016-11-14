@@ -14,24 +14,29 @@ var forms_1 = require('@angular/forms');
 var http_1 = require("@angular/http");
 //Services
 var backend_service_1 = require("../services/backend.service");
+var dataStorage_service_1 = require("../services/dataStorage.service");
+var urlBuilder_service_1 = require("../services/urlBuilder.service");
 //Pages
 var search_page_1 = require("./search/search.page");
 //Components
 var header_component_1 = require("../components/dummy/header/header.component");
 var search_component_1 = require("../components/smart/search.component/search.component");
+var dropdown_component_1 = require("../components/dummy/dropdown/dropdown.component");
+var musicStuff_component_1 = require("../components/dummy/musicStuff.component/musicStuff.component");
+var musicStuffContainer_component_1 = require("../components/smart/musicStuffContainer.component/musicStuffContainer.component");
 var SharedModule = (function () {
     function SharedModule() {
     }
     SharedModule.forRoot = function () {
         return {
             ngModule: SharedModule,
-            providers: [backend_service_1.BackendService]
+            providers: [backend_service_1.BackendService, dataStorage_service_1.DataStorage, urlBuilder_service_1.UrlBuilderService]
         };
     };
     SharedModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule, http_1.HttpModule, http_1.JsonpModule],
-            declarations: [search_page_1.SearchPage, header_component_1.Header, search_component_1.Search],
+            declarations: [search_page_1.SearchPage, header_component_1.Header, search_component_1.Search, musicStuffContainer_component_1.MusicStuffContainer, dropdown_component_1.Dropdown, musicStuff_component_1.MusicStuff],
             exports: [common_1.CommonModule, forms_1.FormsModule, search_page_1.SearchPage, header_component_1.Header, search_component_1.Search]
         }), 
         __metadata('design:paramtypes', [])

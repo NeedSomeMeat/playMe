@@ -1,0 +1,55 @@
+.music-stuff-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+
+  @media(max-width: 900px) {
+    height: 350px;
+  }
+  @media(max-width: 735px) {
+    height: 270px;
+  }
+  @media(max-width: 600px) {
+    height: 180px;
+  }
+
+  img {
+    height: 460px;
+    width: 100%;
+  }
+
+  &-info{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 90%;
+
+    @media(min-width: 900px) {
+      width: 50%;
+    }
+
+    .play {
+      font-size: 55px;
+    }
+
+    h4 {
+      padding-top: 2%;
+    }
+
+    @media(max-width: 600px) {
+      h2 {
+        font-size: 26px;
+      }
+
+      h4 {
+        font-size: 18px;
+      }
+
+      .glyphicon-play {
+        font-size: 45px;
+      }
+    }
+  }
+}

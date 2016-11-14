@@ -1,40 +1,22 @@
 "use strict";
 var SearchModel = (function () {
-    function SearchModel(album, artists, available_markets, disc_number, duration_ms, explicit, external_ids, external_urls, href, id, name, popularity, preview_url, track_number, uri, type) {
-        if (album === void 0) { album = {}; }
-        if (artists === void 0) { artists = []; }
-        if (available_markets === void 0) { available_markets = []; }
-        if (disc_number === void 0) { disc_number = null; }
-        if (duration_ms === void 0) { duration_ms = null; }
-        if (explicit === void 0) { explicit = null; }
-        if (external_ids === void 0) { external_ids = {}; }
-        if (external_urls === void 0) { external_urls = {}; }
+    function SearchModel(href, items, limit, next, offset, previous, total) {
         if (href === void 0) { href = ""; }
-        if (id === void 0) { id = ""; }
-        if (name === void 0) { name = ""; }
-        if (popularity === void 0) { popularity = null; }
-        if (preview_url === void 0) { preview_url = ""; }
-        if (track_number === void 0) { track_number = null; }
-        if (uri === void 0) { uri = ""; }
-        if (type === void 0) { type = ""; }
-        this.album = album;
-        this.artists = artists;
-        this.available_markets = available_markets;
-        this.disc_number = disc_number;
-        this.duration_ms = duration_ms;
-        this.explicit = explicit;
-        this.external_ids = external_ids;
-        this.external_urls = external_urls;
+        if (items === void 0) { items = []; }
+        if (limit === void 0) { limit = null; }
+        if (next === void 0) { next = ""; }
+        if (offset === void 0) { offset = null; }
+        if (previous === void 0) { previous = ""; }
+        if (total === void 0) { total = null; }
         this.href = href;
-        this.id = id;
-        this.name = name;
-        this.popularity = popularity;
-        this.preview_url = preview_url;
-        this.track_number = track_number;
-        this.uri = uri;
-        this.type = type;
+        this.items = items;
+        this.limit = limit;
+        this.next = next;
+        this.offset = offset;
+        this.previous = previous;
+        this.total = total;
     }
     return SearchModel;
 }());
 exports.SearchModel = SearchModel;
-//# sourceMappingURL=Search.model.js.map
+//# sourceMappingURL=search.model.js.map
