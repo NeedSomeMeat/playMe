@@ -10,13 +10,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var http_1 = require('@angular/http');
-var URL = 'https://api.spotify.com/v1/search.component';
+var urlBuilder_service_1 = require("./urlBuilder.service");
 var BackendService = (function () {
-    function BackendService(http) {
+    function BackendService(http, URL) {
         this.http = http;
+        this.URL = URL;
     }
-    BackendService.prototype.getMOCKS = function () {
-        return this.http.get(URL)
+    BackendService.prototype.search = function (type, searchString) {
+        return this.http.get(this.URL.searchUrl(type, searchString))
             .cache()
             .map(function (res) { return res.json(); });
     };
@@ -27,7 +28,7 @@ var BackendService = (function () {
     };
     BackendService = __decorate([
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [http_1.Http])
+        __metadata('design:paramtypes', [http_1.Http, urlBuilder_service_1.UrlBuilderService])
     ], BackendService);
     return BackendService;
 }());
