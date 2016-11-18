@@ -18,12 +18,16 @@ var dataStorage_service_1 = require("../services/dataStorage.service");
 var urlBuilder_service_1 = require("../services/urlBuilder.service");
 //Pages
 var search_page_1 = require("./search/search.page");
+var info_page_1 = require("./info/info.page");
 //Components
 var header_component_1 = require("../components/dummy/header/header.component");
 var search_component_1 = require("../components/smart/search.component/search.component");
 var dropdown_component_1 = require("../components/dummy/dropdown/dropdown.component");
 var musicStuff_component_1 = require("../components/dummy/musicStuff.component/musicStuff.component");
 var musicStuffContainer_component_1 = require("../components/smart/musicStuffContainer.component/musicStuffContainer.component");
+var scrollContent_component_1 = require("../components/smart/scrollContent/scrollContent.component");
+var controllButtons_1 = require("../components/smart/controllButtons/controllButtons");
+var actionButton_component_1 = require("../components/dummy/actionButton/actionButton.component");
 var SharedModule = (function () {
     function SharedModule() {
     }
@@ -36,8 +40,8 @@ var SharedModule = (function () {
     SharedModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule, http_1.HttpModule, http_1.JsonpModule],
-            declarations: [search_page_1.SearchPage, header_component_1.Header, search_component_1.Search, musicStuffContainer_component_1.MusicStuffContainer, dropdown_component_1.Dropdown, musicStuff_component_1.MusicStuff],
-            exports: [common_1.CommonModule, forms_1.FormsModule, search_page_1.SearchPage, header_component_1.Header, search_component_1.Search]
+            declarations: [search_page_1.SearchPage, info_page_1.InfoPage, header_component_1.Header, search_component_1.Search, musicStuffContainer_component_1.MusicStuffContainer, dropdown_component_1.Dropdown, musicStuff_component_1.MusicStuff, scrollContent_component_1.ScrollContent, controllButtons_1.controlButtons, actionButton_component_1.actionButton],
+            exports: [common_1.CommonModule, forms_1.FormsModule, search_page_1.SearchPage, header_component_1.Header, search_component_1.Search, musicStuffContainer_component_1.MusicStuffContainer, dropdown_component_1.Dropdown, musicStuff_component_1.MusicStuff, scrollContent_component_1.ScrollContent, controllButtons_1.controlButtons, actionButton_component_1.actionButton]
         }), 
         __metadata('design:paramtypes', [])
     ], SharedModule);

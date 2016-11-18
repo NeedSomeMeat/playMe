@@ -1,0 +1,113 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=newk&offset=0&limit=20&type=artist",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "followers": {
+          "href": null,
+          "total": 1
+        },
+        "genres": [
+          "k-rock"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id": "5RL0RK0RF2t34HNbKjQMd3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/277592429e596750f9d0be06c9d58114cd48b8d1",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/42a716a214398b9e25537410156258e83fe7600a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/52b6075400aad0218f443f1c29d7e51580fd7ebb",
+            "width": 64
+          }
+        ],
+        "name": "Newk",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1w9IXNWvCSfHhT8VXTdtQA"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1w9IXNWvCSfHhT8VXTdtQA",
+        "id": "1w9IXNWvCSfHhT8VXTdtQA",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/532f621335087752ab3b90a1f41800c5fdc12a15",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a65f0c5877e90c3399e79539d1e66905863639e2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/6b5a74e3257bc7785025603dff36a234fab9996f",
+            "width": 64
+          }
+        ],
+        "name": "NEW.K(뉴케이)",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:1w9IXNWvCSfHhT8VXTdtQA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1S3voWP3SRzgZP4A1aiUJG"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1S3voWP3SRzgZP4A1aiUJG",
+        "id": "1S3voWP3SRzgZP4A1aiUJG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/cc78db60026694532c0eed05f0bc2b0860ae31fb",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/76af17689f2b97ce4747c7c54a048fd2e6004f49",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/46aa8e2136324532f11b2d46ff9aaa7b81d22309",
+            "width": 64
+          }
+        ],
+        "name": "Gruft & Newk",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:1S3voWP3SRzgZP4A1aiUJG"
+      }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 3
+  }
+}

@@ -1,0 +1,1300 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=newk&offset=0&limit=20&type=track",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3bSyv1vO8ye6PKyWcJeVbI"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3bSyv1vO8ye6PKyWcJeVbI",
+          "id" : "3bSyv1vO8ye6PKyWcJeVbI",
+          "name" : "Baasik",
+          "type" : "artist",
+          "uri" : "spotify:artist:3bSyv1vO8ye6PKyWcJeVbI"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5kvE1wvZJslKP2qKNia4gW"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5kvE1wvZJslKP2qKNia4gW",
+        "id" : "5kvE1wvZJslKP2qKNia4gW",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/166111e1708c9cb27bbcf108d9c6edf9ebe0236a",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/824982c50013d91f572b2ecdf9814386eeabdb9b",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/f25250ce8c3532a6f42351d646e8636f160a204f",
+          "width" : 64
+        } ],
+        "name" : "Evacuate",
+        "type" : "album",
+        "uri" : "spotify:album:5kvE1wvZJslKP2qKNia4gW"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3bSyv1vO8ye6PKyWcJeVbI"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3bSyv1vO8ye6PKyWcJeVbI",
+        "id" : "3bSyv1vO8ye6PKyWcJeVbI",
+        "name" : "Baasik",
+        "type" : "artist",
+        "uri" : "spotify:artist:3bSyv1vO8ye6PKyWcJeVbI"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 330000,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCABN1321706"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3pxzkg7l1TSAFPMkUDtxvY"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3pxzkg7l1TSAFPMkUDtxvY",
+      "id" : "3pxzkg7l1TSAFPMkUDtxvY",
+      "name" : "Newk",
+      "popularity" : 5,
+      "preview_url" : "https://p.scdn.co/mp3-preview/616e853de91a92a9af2ee2fab64d30f48885450b",
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:3pxzkg7l1TSAFPMkUDtxvY"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+          "id" : "1VEzN9lxvG6KPR3QQGsebR",
+          "name" : "Sonny Rollins",
+          "type" : "artist",
+          "uri" : "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+        } ],
+        "available_markets" : [ "CA", "MX", "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/61ZMZem0tvxv63NqN8mesY"
+        },
+        "href" : "https://api.spotify.com/v1/albums/61ZMZem0tvxv63NqN8mesY",
+        "id" : "61ZMZem0tvxv63NqN8mesY",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ecbee41aa52f8651f68716cf7438e87d9844b985",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/73ae170421ef3caeaeb24f2237a63272d2b77882",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/1f9a43871c4ccfe0c12dccb4a89929f3c7a06345",
+          "width" : 64
+        } ],
+        "name" : "Newk's Time",
+        "type" : "album",
+        "uri" : "spotify:album:61ZMZem0tvxv63NqN8mesY"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+        "id" : "1VEzN9lxvG6KPR3QQGsebR",
+        "name" : "Sonny Rollins",
+        "type" : "artist",
+        "uri" : "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 344746,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USBN20300951"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1t5fyaRFbDXWvk8Gm9OeHO"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1t5fyaRFbDXWvk8Gm9OeHO",
+      "id" : "1t5fyaRFbDXWvk8Gm9OeHO",
+      "name" : "Tune Up",
+      "popularity" : 24,
+      "preview_url" : "https://p.scdn.co/mp3-preview/63a29ad3054e0325e16fe94e1f3e4270fbae63c3",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1t5fyaRFbDXWvk8Gm9OeHO"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2oswINjoJzK70vr8tBcdOF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2oswINjoJzK70vr8tBcdOF",
+          "id" : "2oswINjoJzK70vr8tBcdOF",
+          "name" : "JJ Schofield",
+          "type" : "artist",
+          "uri" : "spotify:artist:2oswINjoJzK70vr8tBcdOF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2APCDCYzBMJfiFrbjaOuAr"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2APCDCYzBMJfiFrbjaOuAr",
+        "id" : "2APCDCYzBMJfiFrbjaOuAr",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/a830c90db2193b43b0d9928061d61a32a754d608",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/4396753b962f5b893afb83be9f8265d13adedf44",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cd812fc356d1ea0f503c1fe5f206895be356a52e",
+          "width" : 64
+        } ],
+        "name" : "Round and Round (feat. Newk)",
+        "type" : "album",
+        "uri" : "spotify:album:2APCDCYzBMJfiFrbjaOuAr"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2oswINjoJzK70vr8tBcdOF"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2oswINjoJzK70vr8tBcdOF",
+        "id" : "2oswINjoJzK70vr8tBcdOF",
+        "name" : "JJ Schofield",
+        "type" : "artist",
+        "uri" : "spotify:artist:2oswINjoJzK70vr8tBcdOF"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 219769,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1560978"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4NP7rVLOJmaTeayrrbtPEb"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4NP7rVLOJmaTeayrrbtPEb",
+      "id" : "4NP7rVLOJmaTeayrrbtPEb",
+      "name" : "Round and Round (feat. Newk)",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/f9f1b63c225cf1e68f1a2b218122dfdf5e6bb156",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:4NP7rVLOJmaTeayrrbtPEb"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1qMFrAJw1xh6idxTM49rsp"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1qMFrAJw1xh6idxTM49rsp",
+          "id" : "1qMFrAJw1xh6idxTM49rsp",
+          "name" : "Riprap Quartet",
+          "type" : "artist",
+          "uri" : "spotify:artist:1qMFrAJw1xh6idxTM49rsp"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5d6bQ0lkQ2rGb16fKbZY3o"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5d6bQ0lkQ2rGb16fKbZY3o",
+        "id" : "5d6bQ0lkQ2rGb16fKbZY3o",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ccd4cb54bd7ea2ad88e0c75e6c16699392b72e5c",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d8ae216a3f855dc3173bfb2ab3eb09c5785cc7d3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/3af53a62061a8e129c8e1ac61474a7ad83aa4809",
+          "width" : 64
+        } ],
+        "name" : "Snow Blue Night",
+        "type" : "album",
+        "uri" : "spotify:album:5d6bQ0lkQ2rGb16fKbZY3o"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1qMFrAJw1xh6idxTM49rsp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1qMFrAJw1xh6idxTM49rsp",
+        "id" : "1qMFrAJw1xh6idxTM49rsp",
+        "name" : "Riprap Quartet",
+        "type" : "artist",
+        "uri" : "spotify:artist:1qMFrAJw1xh6idxTM49rsp"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 301293,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "uscgj1350454"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3fKQuYcM6VEAnNhg58tJ8Z"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3fKQuYcM6VEAnNhg58tJ8Z",
+      "id" : "3fKQuYcM6VEAnNhg58tJ8Z",
+      "name" : "Newk",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/7d07af64fa41189d7158a52a06b264759415b597",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:3fKQuYcM6VEAnNhg58tJ8Z"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 71028,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1556958"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/60i6vp4sVBcYawJfz9BgBS"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/60i6vp4sVBcYawJfz9BgBS",
+      "id" : "60i6vp4sVBcYawJfz9BgBS",
+      "name" : "Rules to the Game",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/f18ecb4b7e0db3681b1dc54aa0c9b77ace09392d",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:60i6vp4sVBcYawJfz9BgBS"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 208954,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511910"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1EfXacatbmrAZVcUmkZZGz"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1EfXacatbmrAZVcUmkZZGz",
+      "id" : "1EfXacatbmrAZVcUmkZZGz",
+      "name" : "Take off Freestyle",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1a166774b5713c2107ddbd05a4b3870939f248ea",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:1EfXacatbmrAZVcUmkZZGz"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 228833,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511931"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7dFKMSVyQoovqqEAJzbTHF"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7dFKMSVyQoovqqEAJzbTHF",
+      "id" : "7dFKMSVyQoovqqEAJzbTHF",
+      "name" : "Humbled",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b5d875204c3dbc08365d3e98149d3f5c0313381b",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:7dFKMSVyQoovqqEAJzbTHF"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 289620,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511949"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0Y65x9cyrwW19gkxFgmrb4"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0Y65x9cyrwW19gkxFgmrb4",
+      "id" : "0Y65x9cyrwW19gkxFgmrb4",
+      "name" : "I Dont Know",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/74f1c788aecf56ce18124e27d93fae86b660f16e",
+      "track_number" : 4,
+      "type" : "track",
+      "uri" : "spotify:track:0Y65x9cyrwW19gkxFgmrb4"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 133486,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511953"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/06Ih3p3g5KRvHPIkY25td8"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/06Ih3p3g5KRvHPIkY25td8",
+      "id" : "06Ih3p3g5KRvHPIkY25td8",
+      "name" : "Goddamn",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/e0953d5a0e2691c187f42f3c3ad894d7e8ecd354",
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:06Ih3p3g5KRvHPIkY25td8"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 302812,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511957"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/46aa4XslkahUuiQdfAEmkn"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/46aa4XslkahUuiQdfAEmkn",
+      "id" : "46aa4XslkahUuiQdfAEmkn",
+      "name" : "Lonely Days",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a8296549d7431d156f21af0cad4bf1af38716a2e",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:46aa4XslkahUuiQdfAEmkn"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 250045,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511962"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/07yrEMdZNZWljTFSJJcjPI"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/07yrEMdZNZWljTFSJJcjPI",
+      "id" : "07yrEMdZNZWljTFSJJcjPI",
+      "name" : "What's Happenin",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/6e14a6c715d56804109459c0483cebbfef93fb78",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:07yrEMdZNZWljTFSJJcjPI"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 226770,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511971"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5bQpImQeCD1HhfMGfKhGlq"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5bQpImQeCD1HhfMGfKhGlq",
+      "id" : "5bQpImQeCD1HhfMGfKhGlq",
+      "name" : "Rodney Story, Pt. 1",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1e3606bf5e1415b84ebc4ae635d3124235e7a9e9",
+      "track_number" : 9,
+      "type" : "track",
+      "uri" : "spotify:track:5bQpImQeCD1HhfMGfKhGlq"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 249496,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511973"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3mAx9t5vQQSs3S2e6l11pz"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3mAx9t5vQQSs3S2e6l11pz",
+      "id" : "3mAx9t5vQQSs3S2e6l11pz",
+      "name" : "Keep Running",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/73b251658208ae9cb15f012a9a011d4ad3e3c66d",
+      "track_number" : 10,
+      "type" : "track",
+      "uri" : "spotify:track:3mAx9t5vQQSs3S2e6l11pz"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 199602,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1511988"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/16lE7jdBoLZolS3DwPYcDI"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/16lE7jdBoLZolS3DwPYcDI",
+      "id" : "16lE7jdBoLZolS3DwPYcDI",
+      "name" : "40 Bars, Pt. 5",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/8254cb5c27e7e20d7eaa4b57a8103517fbd2309a",
+      "track_number" : 11,
+      "type" : "track",
+      "uri" : "spotify:track:16lE7jdBoLZolS3DwPYcDI"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 315560,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1512002"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/55EBt2BYroixmSYyAb7HlU"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/55EBt2BYroixmSYyAb7HlU",
+      "id" : "55EBt2BYroixmSYyAb7HlU",
+      "name" : "Homicide",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1c39ea4b0f408a82f2d9856b34f6cb1fd733d337",
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:55EBt2BYroixmSYyAb7HlU"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 155534,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1512004"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6nWZxxzo5q06zV6M7F94SR"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6nWZxxzo5q06zV6M7F94SR",
+      "id" : "6nWZxxzo5q06zV6M7F94SR",
+      "name" : "Trust Issue's",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c16fbe80597a46b7dccc918665e52d175a480a62",
+      "track_number" : 13,
+      "type" : "track",
+      "uri" : "spotify:track:6nWZxxzo5q06zV6M7F94SR"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 233640,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1512007"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6RJClrHSzeV4hzQu3Pz1fa"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6RJClrHSzeV4hzQu3Pz1fa",
+      "id" : "6RJClrHSzeV4hzQu3Pz1fa",
+      "name" : "Hustleholick Sick",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d9f7f9aeff8e5d2c981835ee087bd2668310da18",
+      "track_number" : 14,
+      "type" : "track",
+      "uri" : "spotify:track:6RJClrHSzeV4hzQu3Pz1fa"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id" : "4x2hPVuiN83UvPGrHts4L3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+          "width" : 64
+        } ],
+        "name" : "Motivated to Grind",
+        "type" : "album",
+        "uri" : "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 189911,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "TCACJ1512010"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4dUaanNrAjGnIH2OIUufra"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4dUaanNrAjGnIH2OIUufra",
+      "id" : "4dUaanNrAjGnIH2OIUufra",
+      "name" : "To the Top",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/fea6c502982d042e60976f126fdec754955c7172",
+      "track_number" : 15,
+      "type" : "track",
+      "uri" : "spotify:track:4dUaanNrAjGnIH2OIUufra"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1EgqNZrk052CzVD1C10Xp2"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1EgqNZrk052CzVD1C10Xp2",
+        "id" : "1EgqNZrk052CzVD1C10Xp2",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/277592429e596750f9d0be06c9d58114cd48b8d1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/42a716a214398b9e25537410156258e83fe7600a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/52b6075400aad0218f443f1c29d7e51580fd7ebb",
+          "width" : 64
+        } ],
+        "name" : "Unleashed",
+        "type" : "album",
+        "uri" : "spotify:album:1EgqNZrk052CzVD1C10Xp2"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 214800,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCACK1554651"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3hNt0iK0U7EeN0w9uwfJHP"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3hNt0iK0U7EeN0w9uwfJHP",
+      "id" : "3hNt0iK0U7EeN0w9uwfJHP",
+      "name" : "Makin Sense",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/6113d33bf0a95ead73da930e39f60ed7f7112c26",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3hNt0iK0U7EeN0w9uwfJHP"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+          "id" : "5RL0RK0RF2t34HNbKjQMd3",
+          "name" : "Newk",
+          "type" : "artist",
+          "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1EgqNZrk052CzVD1C10Xp2"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1EgqNZrk052CzVD1C10Xp2",
+        "id" : "1EgqNZrk052CzVD1C10Xp2",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/277592429e596750f9d0be06c9d58114cd48b8d1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/42a716a214398b9e25537410156258e83fe7600a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/52b6075400aad0218f443f1c29d7e51580fd7ebb",
+          "width" : 64
+        } ],
+        "name" : "Unleashed",
+        "type" : "album",
+        "uri" : "spotify:album:1EgqNZrk052CzVD1C10Xp2"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+        "id" : "5RL0RK0RF2t34HNbKjQMd3",
+        "name" : "Newk",
+        "type" : "artist",
+        "uri" : "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 217488,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCACK1543365"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7ApZlDRYexCKspHhg2tzvR"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7ApZlDRYexCKspHhg2tzvR",
+      "id" : "7ApZlDRYexCKspHhg2tzvR",
+      "name" : "Colder Nights",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/e2c0fabe8d1b13b960cd13aea60dfc78e881b0cf",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:7ApZlDRYexCKspHhg2tzvR"
+    } ],
+    "limit" : 20,
+    "next" : "https://api.spotify.com/v1/search?query=newk&offset=20&limit=20&type=track",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 124
+  }
+}

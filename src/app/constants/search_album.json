@@ -1,0 +1,974 @@
+{
+  "albums": {
+    "href": "https://api.spotify.com/v1/search?query=newk&offset=0&limit=20&type=album",
+    "items": [
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+            },
+            "href": "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+            "id": "5RL0RK0RF2t34HNbKjQMd3",
+            "name": "Newk",
+            "type": "artist",
+            "uri": "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4x2hPVuiN83UvPGrHts4L3"
+        },
+        "href": "https://api.spotify.com/v1/albums/4x2hPVuiN83UvPGrHts4L3",
+        "id": "4x2hPVuiN83UvPGrHts4L3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/4321fe60ed64da67ba0b094c1e895d3fa18b3b36",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/2753a6563f9770ebb7a2c26178a7d959ddbc3ae3",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/cf02259373fb60c6265092e90b7632022f3fa93e",
+            "width": 64
+          }
+        ],
+        "name": "Motivated to Grind",
+        "type": "album",
+        "uri": "spotify:album:4x2hPVuiN83UvPGrHts4L3"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5RL0RK0RF2t34HNbKjQMd3"
+            },
+            "href": "https://api.spotify.com/v1/artists/5RL0RK0RF2t34HNbKjQMd3",
+            "id": "5RL0RK0RF2t34HNbKjQMd3",
+            "name": "Newk",
+            "type": "artist",
+            "uri": "spotify:artist:5RL0RK0RF2t34HNbKjQMd3"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1EgqNZrk052CzVD1C10Xp2"
+        },
+        "href": "https://api.spotify.com/v1/albums/1EgqNZrk052CzVD1C10Xp2",
+        "id": "1EgqNZrk052CzVD1C10Xp2",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/277592429e596750f9d0be06c9d58114cd48b8d1",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/42a716a214398b9e25537410156258e83fe7600a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/52b6075400aad0218f443f1c29d7e51580fd7ebb",
+            "width": 64
+          }
+        ],
+        "name": "Unleashed",
+        "type": "album",
+        "uri": "spotify:album:1EgqNZrk052CzVD1C10Xp2"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/79JUNuSIaXXC7W01u752mG"
+            },
+            "href": "https://api.spotify.com/v1/artists/79JUNuSIaXXC7W01u752mG",
+            "id": "79JUNuSIaXXC7W01u752mG",
+            "name": "Bruce Eskovitz",
+            "type": "artist",
+            "uri": "spotify:artist:79JUNuSIaXXC7W01u752mG"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3gg8sqT3BEEb1amhRVqpSp"
+        },
+        "href": "https://api.spotify.com/v1/albums/3gg8sqT3BEEb1amhRVqpSp",
+        "id": "3gg8sqT3BEEb1amhRVqpSp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/718740d740f8e4cb253aa766c7096ff642c17c51",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/73a87553cab6e3426016733d7f6743598effc23a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/cac88eed59ffd5933da34fe945f54482c67c553b",
+            "width": 64
+          }
+        ],
+        "name": "One For Newk",
+        "type": "album",
+        "uri": "spotify:album:3gg8sqT3BEEb1amhRVqpSp"
+      },
+      {
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1w9IXNWvCSfHhT8VXTdtQA"
+            },
+            "href": "https://api.spotify.com/v1/artists/1w9IXNWvCSfHhT8VXTdtQA",
+            "id": "1w9IXNWvCSfHhT8VXTdtQA",
+            "name": "NEW.K(뉴케이)",
+            "type": "artist",
+            "uri": "spotify:artist:1w9IXNWvCSfHhT8VXTdtQA"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/357l88jqdeMDVuWLjcLgUc"
+        },
+        "href": "https://api.spotify.com/v1/albums/357l88jqdeMDVuWLjcLgUc",
+        "id": "357l88jqdeMDVuWLjcLgUc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ac96ad4da345d75a5d3a14a8ee7bd802bb6b5a1b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/6964a5b9db14d5ac747aafd970bbd10df7591d86",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/507f4299075b0ddbdb5edd1cffc1c28f527d5d38",
+            "width": 64
+          }
+        ],
+        "name": "Cry For You",
+        "type": "album",
+        "uri": "spotify:album:357l88jqdeMDVuWLjcLgUc"
+      },
+      {
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1w9IXNWvCSfHhT8VXTdtQA"
+            },
+            "href": "https://api.spotify.com/v1/artists/1w9IXNWvCSfHhT8VXTdtQA",
+            "id": "1w9IXNWvCSfHhT8VXTdtQA",
+            "name": "NEW.K(뉴케이)",
+            "type": "artist",
+            "uri": "spotify:artist:1w9IXNWvCSfHhT8VXTdtQA"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7HeggylREckhJmHPGuj9j4"
+        },
+        "href": "https://api.spotify.com/v1/albums/7HeggylREckhJmHPGuj9j4",
+        "id": "7HeggylREckhJmHPGuj9j4",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/532f621335087752ab3b90a1f41800c5fdc12a15",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a65f0c5877e90c3399e79539d1e66905863639e2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/6b5a74e3257bc7785025603dff36a234fab9996f",
+            "width": 64
+          }
+        ],
+        "name": "And today (오늘도)",
+        "type": "album",
+        "uri": "spotify:album:7HeggylREckhJmHPGuj9j4"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/41OyeTPwpqc9xnGQgvU3nu"
+            },
+            "href": "https://api.spotify.com/v1/artists/41OyeTPwpqc9xnGQgvU3nu",
+            "id": "41OyeTPwpqc9xnGQgvU3nu",
+            "name": "Dr. Bruce Eskovitz",
+            "type": "artist",
+            "uri": "spotify:artist:41OyeTPwpqc9xnGQgvU3nu"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1vj7KwuUX1XpRCImekA3JZ"
+        },
+        "href": "https://api.spotify.com/v1/albums/1vj7KwuUX1XpRCImekA3JZ",
+        "id": "1vj7KwuUX1XpRCImekA3JZ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/6c7bd31cb71ada452c33672692b50f17a7a36aac",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/8a3ee5b8535233896b8063dd0afcfed39025e61d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/5044ce64787363d976bbb923b74485eae25dfb4a",
+            "width": 64
+          }
+        ],
+        "name": "One for Newk II",
+        "type": "album",
+        "uri": "spotify:album:1vj7KwuUX1XpRCImekA3JZ"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1S3voWP3SRzgZP4A1aiUJG"
+            },
+            "href": "https://api.spotify.com/v1/artists/1S3voWP3SRzgZP4A1aiUJG",
+            "id": "1S3voWP3SRzgZP4A1aiUJG",
+            "name": "Gruft & Newk",
+            "type": "artist",
+            "uri": "spotify:artist:1S3voWP3SRzgZP4A1aiUJG"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7vlLh23DFP3P4rw9byRJuU"
+        },
+        "href": "https://api.spotify.com/v1/albums/7vlLh23DFP3P4rw9byRJuU",
+        "id": "7vlLh23DFP3P4rw9byRJuU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/1176e7084605f8bd9b04964956e78e2ed3895163",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/681222513b2b0cee44d797ecd0a178b1ee56e64b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/811a289f2a37e20599e2e5ad58b2e9534ce8b177",
+            "width": 64
+          }
+        ],
+        "name": "No One Wants to Forget",
+        "type": "album",
+        "uri": "spotify:album:7vlLh23DFP3P4rw9byRJuU"
+      },
+      {
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1S3voWP3SRzgZP4A1aiUJG"
+            },
+            "href": "https://api.spotify.com/v1/artists/1S3voWP3SRzgZP4A1aiUJG",
+            "id": "1S3voWP3SRzgZP4A1aiUJG",
+            "name": "Gruft & Newk",
+            "type": "artist",
+            "uri": "spotify:artist:1S3voWP3SRzgZP4A1aiUJG"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5HRMQ7q6khzu6S9rgJFaOd"
+        },
+        "href": "https://api.spotify.com/v1/albums/5HRMQ7q6khzu6S9rgJFaOd",
+        "id": "5HRMQ7q6khzu6S9rgJFaOd",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/cc78db60026694532c0eed05f0bc2b0860ae31fb",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/76af17689f2b97ce4747c7c54a048fd2e6004f49",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/46aa8e2136324532f11b2d46ff9aaa7b81d22309",
+            "width": 64
+          }
+        ],
+        "name": "The End of 2",
+        "type": "album",
+        "uri": "spotify:album:5HRMQ7q6khzu6S9rgJFaOd"
+      },
+      {
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2oswINjoJzK70vr8tBcdOF"
+            },
+            "href": "https://api.spotify.com/v1/artists/2oswINjoJzK70vr8tBcdOF",
+            "id": "2oswINjoJzK70vr8tBcdOF",
+            "name": "JJ Schofield",
+            "type": "artist",
+            "uri": "spotify:artist:2oswINjoJzK70vr8tBcdOF"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TR",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2APCDCYzBMJfiFrbjaOuAr"
+        },
+        "href": "https://api.spotify.com/v1/albums/2APCDCYzBMJfiFrbjaOuAr",
+        "id": "2APCDCYzBMJfiFrbjaOuAr",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/a830c90db2193b43b0d9928061d61a32a754d608",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/4396753b962f5b893afb83be9f8265d13adedf44",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/cd812fc356d1ea0f503c1fe5f206895be356a52e",
+            "width": 64
+          }
+        ],
+        "name": "Round and Round (feat. Newk)",
+        "type": "album",
+        "uri": "spotify:album:2APCDCYzBMJfiFrbjaOuAr"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+            "id": "1VEzN9lxvG6KPR3QQGsebR",
+            "name": "Sonny Rollins",
+            "type": "artist",
+            "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+          }
+        ],
+        "available_markets": [
+          "CA",
+          "MX",
+          "US"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/61ZMZem0tvxv63NqN8mesY"
+        },
+        "href": "https://api.spotify.com/v1/albums/61ZMZem0tvxv63NqN8mesY",
+        "id": "61ZMZem0tvxv63NqN8mesY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ecbee41aa52f8651f68716cf7438e87d9844b985",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/73ae170421ef3caeaeb24f2237a63272d2b77882",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/1f9a43871c4ccfe0c12dccb4a89929f3c7a06345",
+            "width": 64
+          }
+        ],
+        "name": "Newk's Time",
+        "type": "album",
+        "uri": "spotify:album:61ZMZem0tvxv63NqN8mesY"
+      }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 10
+  }
+}
