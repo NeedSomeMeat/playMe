@@ -9,6 +9,7 @@ import {DataStorage} from "../services/dataStorage.service";
 import {UrlBuilderService} from "../services/urlBuilder.service";
 import {HelperService} from "../services/helper.service";
 import {AudioService} from "../services/audio.service";
+import {SearchStore} from "../components/smart/search.component/search.store";
 
 //Pages
 import {SearchPage} from "./search/search.page";
@@ -39,7 +40,7 @@ export class SharedModule {
     static forRoot(): ModuleWithProviders {
         return {
             ngModule: SharedModule,
-            providers: [ BackendService, DataStorage, UrlBuilderService, HelperService, AudioService ]
+            providers: [ BackendService, DataStorage, UrlBuilderService, HelperService, AudioService, SearchStore ]
         };
     }
 }

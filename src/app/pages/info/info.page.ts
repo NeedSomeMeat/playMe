@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {Location} from '@angular/common';
 import {IPage} from "../pages.interface";
 import {DataStorage} from "../../services/dataStorage.service";
 import {ActivatedRoute, Params} from "@angular/router";
@@ -14,20 +13,16 @@ import 'rxjs/operator/switchMap';
 })
 export class InfoPage implements IPage, OnInit{
     public title:string = 'Info';
+    public backButton:boolean = true;
     private stuff:any;
 
     constructor(private store:DataStorage,
-                private route:ActivatedRoute,
-                private location: Location) {
+                private route:ActivatedRoute) {
     }
 
     public ngOnInit():void {
         this.route.params
             .switchMap((params: Params) => this.store.getStuff(params['id']))
             .subscribe((object:any) => this.stuff = object);
-    }
-
-    public backButton():void {
-        // this.location.back();
     }
 }

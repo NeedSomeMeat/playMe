@@ -10,24 +10,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var searchCache_model_1 = require("../../../models/searchCache.model");
+var search_store_1 = require("./search.store");
+var CONSTANTS_1 = require("../../../constants/CONSTANTS");
 var Search = (function () {
-    function Search() {
+    function Search(searchStore) {
         var _this = this;
+        this.searchStore = searchStore;
         this.searchModel = new core_1.EventEmitter();
-        this.selectedType = new core_1.EventEmitter();
-        this.searchString = new core_1.EventEmitter();
         this.searchParam = {};
         this.cachedType = '';
-        this.options = [
-            'Track',
-            'Album',
-            'Artist'
-        ];
-        this.subscriberSearchModel = this.selectedType
-            .combineLatest(this.searchString, function (type, searchString) {
-            return new searchCache_model_1.SearchCacheModel(type, searchString);
-        })
-            .subscribe(function (searchParams) { return _this.searchModel.emit(searchParams); });
+        this.options = Object.keys(CONSTANTS_1.CONSTANTS.SEARCH_TYPE);
+        this.subscriberSearch = searchStore.searchModel.subscribe(function (searchParams) { return _this.searchModel.emit(searchParams); });
     }
     Search.prototype.ngOnInit = function () {
         var _a = this.searchCache, type = _a.type, searchString = _a.searchString;
@@ -36,21 +29,21 @@ var Search = (function () {
     };
     Search.prototype.ngAfterViewInit = function () {
         var _this = this;
-        this.subscriberSearch = this.searchForm.control.valueChanges
+        this.subscriberInput = this.searchForm.control.valueChanges
             .debounceTime(600)
             .filter(function (values) { return values.search && values.search.trim().length >= 3; })
             .map(function (values) { return values.search.trim().replace(/  +/g, ' '); })
             .distinctUntilChanged()
             .subscribe(function (string) {
-            _this.searchString.emit(string);
+            _this.searchStore.searchString = string;
         });
     };
     Search.prototype.ngOnDestroy = function () {
+        this.subscriberInput.unsubscribe();
         this.subscriberSearch.unsubscribe();
-        this.subscriberSearchModel.unsubscribe();
     };
     Search.prototype.selectType = function (type) {
-        this.selectedType.emit(type);
+        this.searchStore.selectedType = type;
         this.focusInput();
     };
     Search.prototype.focusInput = function () {
@@ -78,7 +71,7 @@ var Search = (function () {
             styleUrls: ['./search.component.less'],
             template: "\n<form #searchForm=\"ngForm\" class=\"search-block\">\n  <input #input type=\"search\" [(ngModel)]=\"searchParam.search\" name=\"search\" ngControl=\"search\" autofocus>\n  <dropdown [options]=\"options\" [marker]=\"cachedType\" (selected)=\"selectType($event)\"></dropdown>\n</form>\n  "
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [search_store_1.SearchStore])
     ], Search);
     return Search;
 }());

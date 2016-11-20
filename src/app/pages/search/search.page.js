@@ -14,6 +14,7 @@ var SearchPage = (function () {
     function SearchPage(store) {
         this.store = store;
         this.title = 'Explore Sound';
+        this.backButton = false;
         this.sharedButton = 'search';
     }
     SearchPage.prototype.ngOnInit = function () {

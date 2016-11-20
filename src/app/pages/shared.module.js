@@ -18,6 +18,7 @@ var dataStorage_service_1 = require("../services/dataStorage.service");
 var urlBuilder_service_1 = require("../services/urlBuilder.service");
 var helper_service_1 = require("../services/helper.service");
 var audio_service_1 = require("../services/audio.service");
+var search_store_1 = require("../components/smart/search.component/search.store");
 //Pages
 var search_page_1 = require("./search/search.page");
 var info_page_1 = require("./info/info.page");
@@ -39,7 +40,7 @@ var SharedModule = (function () {
     SharedModule.forRoot = function () {
         return {
             ngModule: SharedModule,
-            providers: [backend_service_1.BackendService, dataStorage_service_1.DataStorage, urlBuilder_service_1.UrlBuilderService, helper_service_1.HelperService, audio_service_1.AudioService]
+            providers: [backend_service_1.BackendService, dataStorage_service_1.DataStorage, urlBuilder_service_1.UrlBuilderService, helper_service_1.HelperService, audio_service_1.AudioService, search_store_1.SearchStore]
         };
     };
     SharedModule = __decorate([

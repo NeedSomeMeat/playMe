@@ -13,9 +13,10 @@ import {SearchCacheModel} from "../../models/searchCache.model";
   `
 })
 export class SearchPage implements IPage, OnInit {
-    private searchCache: SearchCacheModel;
     public title: string = 'Explore Sound';
+    public backButton: boolean = false;
     public sharedButton: string = 'search';
+    private searchCache: SearchCacheModel;
 
     constructor(private store: DataStorage) { }
 

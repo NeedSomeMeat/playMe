@@ -1,5 +1,7 @@
 import {Component, Output, EventEmitter, ViewChild, AfterViewInit, OnDestroy, Input, OnInit} from '@angular/core';
 import {SearchCacheModel} from "../../../models/searchCache.model";
+import {SearchStore} from "./search.store";
+import {CONSTANTS} from "../../../constants/CONSTANTS";
 
 @Component({
     selector: 'search',
@@ -18,27 +20,18 @@ export class Search implements OnInit, AfterViewInit, OnDestroy {
     @Output() searchModel: EventEmitter<any> = new EventEmitter();
     @Input() searchCache: SearchCacheModel;
 
-    private selectedType: EventEmitter<any> = new EventEmitter();
-    private searchString: EventEmitter<any> = new EventEmitter();
+    private subscriberInput: any;
     private subscriberSearch: any;
-    private subscriberSearchModel: any;
     private searchParam: any = {};
-    private options: Array<any>;
+    private options: Array<string>;
     private cachedType: string = '';
 
-    constructor() {
-        this.options = [
-            'Track',
-            'Album',
-            'Artist'
-        ];
+    constructor(private searchStore:SearchStore) {
+        this.options = Object.keys(CONSTANTS.SEARCH_TYPE);
 
-        this.subscriberSearchModel = this.selectedType
-            .combineLatest(this.searchString,
-                (type: string, searchString: string) => {
-                    return new SearchCacheModel(type, searchString)
-                })
-            .subscribe((searchParams: SearchCacheModel) => this.searchModel.emit(searchParams))
+        this.subscriberSearch = searchStore.searchModel.subscribe(
+                (searchParams: SearchCacheModel) => this.searchModel.emit(searchParams)
+        );
     }
 
     public ngOnInit(): void {
@@ -48,23 +41,23 @@ export class Search implements OnInit, AfterViewInit, OnDestroy {
     }
 
     public ngAfterViewInit(): void {
-        this.subscriberSearch = this.searchForm.control.valueChanges
+        this.subscriberInput = this.searchForm.control.valueChanges
             .debounceTime(600)
             .filter((values: any) => values.search && values.search.trim().length >= 3)
             .map((values: any) => values.search.trim().replace(/  +/g, ' '))
             .distinctUntilChanged()
             .subscribe((string: string) => {
-                this.searchString.emit(string);
+                this.searchStore.searchString = string;
             });
     }
 
     public ngOnDestroy(): void {
+        this.subscriberInput.unsubscribe();
         this.subscriberSearch.unsubscribe();
-        this.subscriberSearchModel.unsubscribe();
     }
 
     private selectType(type: string): void {
-        this.selectedType.emit(type);
+        this.searchStore.selectedType = type;
         this.focusInput();
     }
 

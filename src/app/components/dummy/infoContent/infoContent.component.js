@@ -9,26 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-require('../../public/css/styles.css');
-var AppComponent = (function () {
-    function AppComponent() {
+var InfoContent = (function () {
+    function InfoContent() {
     }
-    AppComponent.prototype.onActivate = function (comp) {
-        this.sharedTitle = comp.title;
-        this.backButton = comp.backButton;
-        if (comp.sharedButton) {
-            this.sharedBtn = comp.sharedButton;
-            this.sharedFunction = comp.sharedFunction.bind(comp);
-        }
-    };
-    AppComponent = __decorate([
+    InfoContent = __decorate([
         core_1.Component({
-            selector: 'app',
-            template: "\n<header [title]=\"sharedTitle\" [button]=\"sharedBtn\" (btnClicked)=\"sharedFunction()\" \n    [backButton]=\"backButton\"></header>\n<router-outlet (activate)='onActivate($event)'></router-outlet>\n"
+            selector: 'info-content',
+            template: "\n<div>\n  <img src=\"\" alt=\"\">\n\n</div>\n  "
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], InfoContent);
+    return InfoContent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.InfoContent = InfoContent;
+//# sourceMappingURL=infoContent.component.js.map

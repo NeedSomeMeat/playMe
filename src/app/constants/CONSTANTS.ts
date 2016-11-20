@@ -3,9 +3,9 @@ export class CONSTANTS{
 
     public static get SEARCH_TYPE () {
         return {
-            ARTIST: 'artist',
+            TRACK: 'track',
             ALBUM: 'album',
-            TRACK: 'track'
+            ARTIST: 'artist'
         }
     }
 }

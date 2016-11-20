@@ -1,12 +1,13 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
+import {Location} from '@angular/common';
 
 @Component({
     selector: 'header',
     styleUrls: ['./header.component.less'],
     template: `
 <div class="header-block">
-    <div class="header-button back">
-        <span class="glyphicon glyphicon-chevron-left" (click)="goBack.emit()"></span>
+    <div class="header-button back" (click)="goBack()">
+        <span *ngIf="doCheck()" class="glyphicon glyphicon-chevron-left"></span>
     </div>
     <h1>{{title}}</h1>
     <div class="header-button search">
@@ -17,14 +18,23 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
 })
 export class Header {
     @Input() title:string;
+    @Input() backButton:boolean;
     @Input() button:string;
-    @Output() goBack:EventEmitter<any> = new EventEmitter();
     @Output() btnClicked:EventEmitter<any> = new EventEmitter();
 
-    constructor() {
+    constructor(private location: Location) {
     }
 
     private onBtnClick():void {
         this.btnClicked.emit();
+    }
+
+    private doCheck():boolean {
+        return this.backButton;
+    }
+
+    private goBack():void {
+        if(!this.backButton) return;
+        this.location.back();
     }
 }

@@ -5,9 +5,9 @@ var CONSTANTS = (function () {
     Object.defineProperty(CONSTANTS, "SEARCH_TYPE", {
         get: function () {
             return {
-                ARTIST: 'artist',
+                TRACK: 'track',
                 ALBUM: 'album',
-                TRACK: 'track'
+                ARTIST: 'artist'
             };
         },
         enumerable: true,

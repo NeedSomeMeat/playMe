@@ -1,4 +1,4 @@
-import {Component, Output, EventEmitter} from '@angular/core';
+import {Component, Output, EventEmitter, Input} from '@angular/core';
 
 @Component({
     selector: 'audio-sound',
@@ -6,15 +6,15 @@ import {Component, Output, EventEmitter} from '@angular/core';
     template: `
 <div class="progress vertical" (click)="setVolume($event)">
   <div class="progress-bar progress-bar-success" role="progressbar" 
-    [ngStyle]="{'width': volume + '%'}">
-    <span class="sr-only">Volume: {{volume}}%</span>
+    [ngStyle]="{'width': volume * 100 + '%'}">
+    <span class="sr-only">Volume: {{volume * 100}}%</span>
   </div>
 </div>
 `
 })
 export class AudioSound {
-    private volume:number = 100;
     @Output() volumeChanged: EventEmitter<any> = new EventEmitter();
+    @Input() volume:number;
 
     constructor() {
     }
@@ -22,8 +22,6 @@ export class AudioSound {
     private setVolume(event:any):void {
         event.stopPropagation();
         let maxVolume = event.target.clientWidth;
-
-        this.volume = (event.offsetX * 100) / maxVolume;
-        this.volumeChanged.emit(this.volume);
+        this.volumeChanged.emit((event.offsetX * 100) / maxVolume);
     }
 }
