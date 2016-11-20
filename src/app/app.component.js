@@ -16,15 +16,17 @@ var AppComponent = (function () {
     AppComponent.prototype.onActivate = function (comp) {
         if (comp.title)
             this.sharedTitle = comp.title;
-        if (comp.button) {
-            this.sharedBtn = comp.button;
+        if (comp.backButton)
+            this.backButton = comp.backButton;
+        if (comp.sharedButton) {
+            this.sharedBtn = comp.sharedButton;
             this.sharedFunction = comp.sharedFunction;
         }
     };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'app',
-            template: "\n<header [title]=\"sharedTitle\" [button]=\"sharedBtn\" (btnClicked)=\"sharedFunction()\"></header>\n<router-outlet (activate)='onActivate($event)'></router-outlet>\n"
+            template: "\n<header [title]=\"sharedTitle\" [button]=\"sharedBtn\" (btnClicked)=\"sharedFunction()\" (goBack)=\"backButton()\"></header>\n<router-outlet (activate)='onActivate($event)'></router-outlet>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

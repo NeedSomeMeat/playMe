@@ -4,7 +4,10 @@ import {InfoPage} from "./pages/info/info.page";
 
 export const routes: Routes = [
     { path: '', component: SearchPage},
-    { path: 'info', component: InfoPage}
+    { path: 'info/:id', component: InfoPage},
+    { path: 'artist/:id', component: InfoPage},
+    { path: 'album/:id', component: InfoPage},
+    { path: 'track/:id', component: InfoPage}
 ];
 
 export const appRoutingProviders: any[] = [];

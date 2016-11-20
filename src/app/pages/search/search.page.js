@@ -14,11 +14,13 @@ var SearchPage = (function () {
     function SearchPage(store) {
         this.store = store;
         this.title = 'Explore Sound';
-        this.button = 'Find';
-        store.searchData.subscribe(function (res) {
-            return console.log('SSS ', res);
-        });
+        this.sharedButton = 'search';
     }
+    SearchPage.prototype.ngOnInit = function () {
+        var cache = this.store.searchCache();
+        if (cache)
+            this.searchCache = cache;
+    };
     SearchPage.prototype.searchModelHandler = function (searchParams) {
         this.store.searchFor(searchParams);
     };
@@ -28,7 +30,7 @@ var SearchPage = (function () {
     SearchPage = __decorate([
         core_1.Component({
             selector: 'search-page',
-            template: "\n<div>\n    <search (searchModel)=\"searchModelHandler($event)\"></search>\n    <music-stuff-container [data]=\"store.searchData | async\"></music-stuff-container>\n</div>\n  "
+            template: "\n<div>\n    <search (searchModel)=\"searchModelHandler($event)\" [searchCache]=\"searchCache\"></search>\n    <music-stuff-container [data]=\"store.searchData | async\"></music-stuff-container>\n</div>\n  "
         }), 
         __metadata('design:paramtypes', [dataStorage_service_1.DataStorage])
     ], SearchPage);

@@ -13,6 +13,9 @@ var actionButton = (function () {
     function actionButton() {
         this.clicked = new core_1.EventEmitter();
     }
+    actionButton.prototype.getIcon = function () {
+        return "glyphicon glyphicon-" + this.icon;
+    };
     actionButton.prototype.onClick = function () {
         this.clicked.emit();
     };
@@ -28,7 +31,7 @@ var actionButton = (function () {
         core_1.Component({
             selector: 'action-button',
             styleUrls: ['./actionButton.component.less'],
-            template: "\n<div (click)=\"onClick()\">\n      <span class=\"play glyphicon glyphicon-play\" aria-hidden=\"true\"></span>\n</div>\n  "
+            template: "\n<div (click)=\"onClick()\" class=\"action-button btn btn-default\">\n      <span [attr.class]=\"getIcon()\" aria-hidden=\"true\"></span>\n</div>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], actionButton);

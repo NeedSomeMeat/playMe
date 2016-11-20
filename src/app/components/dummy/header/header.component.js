@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var Header = (function () {
     function Header() {
+        this.goBack = new core_1.EventEmitter();
         this.btnClicked = new core_1.EventEmitter();
     }
     Header.prototype.onBtnClick = function () {
@@ -27,12 +28,16 @@ var Header = (function () {
     __decorate([
         core_1.Output(), 
         __metadata('design:type', core_1.EventEmitter)
+    ], Header.prototype, "goBack", void 0);
+    __decorate([
+        core_1.Output(), 
+        __metadata('design:type', core_1.EventEmitter)
     ], Header.prototype, "btnClicked", void 0);
     Header = __decorate([
         core_1.Component({
             selector: 'header',
             styleUrls: ['./header.component.less'],
-            template: "\n<div class=\"header-block\">\n    <div class=\"header-button back\">\n        <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\n    </div>\n    <h1>{{title}}</h1>\n    <div class=\"header-button search\">\n        <span class=\"glyphicon glyphicon-search\" aria-hidden=\"true\" (click)=\"onBtnClick()\"></span>\n    </div>\n</div>\n  "
+            template: "\n<div class=\"header-block\">\n    <div class=\"header-button back\">\n        <span class=\"glyphicon glyphicon-chevron-left\" (click)=\"goBack.emit()\"></span>\n    </div>\n    <h1>{{title}}</h1>\n    <div class=\"header-button search\">\n        <span class=\"glyphicon glyphicon-search\" aria-hidden=\"true\" (click)=\"onBtnClick()\"></span>\n    </div>\n</div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], Header);

@@ -16,10 +16,12 @@ var CONSTANTS_1 = require("../constants/CONSTANTS");
 var album_model_1 = require("../models/album.model");
 var artist_model_1 = require("../models/artist.model");
 var track_model_1 = require("../models/track.model");
+var searchCache_model_1 = require("../models/searchCache.model");
 var DataStorage = (function () {
     function DataStorage(backend) {
         this.backend = backend;
         this._searchData = new BehaviorSubject_1.BehaviorSubject(immutable_1.List([]));
+        this._searchQuery = new BehaviorSubject_1.BehaviorSubject(new searchCache_model_1.SearchCacheModel());
     }
     Object.defineProperty(DataStorage.prototype, "searchData", {
         get: function () {
@@ -28,9 +30,16 @@ var DataStorage = (function () {
         enumerable: true,
         configurable: true
     });
+    DataStorage.prototype.getStuff = function (id) {
+        return this._searchData.getValue().filter(function (obj) { return obj.id === id; });
+    };
+    DataStorage.prototype.searchCache = function () {
+        return this._searchQuery.getValue();
+    };
     DataStorage.prototype.searchFor = function (_a) {
         var _this = this;
         var type = _a.type, searchString = _a.searchString;
+        this._searchQuery.next({ type: type, searchString: searchString });
         this.backend.search(type, searchString)
             .map(function (res) { return res[Object.keys(res)[0]]; })
             .subscribe(function (res) {

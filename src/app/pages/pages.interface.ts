@@ -1,5 +1,6 @@
 export interface IPage {
     title: string;
-    button?: string;
+    backButton?: Function;
+    sharedButton?: string;
     sharedFunction?: Function;
 }

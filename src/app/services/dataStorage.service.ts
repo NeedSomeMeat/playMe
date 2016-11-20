@@ -1,19 +1,19 @@
 import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs/Observable';
 import {List} from 'immutable';
 import {BehaviorSubject} from "rxjs/BehaviorSubject";
 import {BackendService} from "./backend.service";
 import {SearchModel} from "../models/search.model";
 import {CONSTANTS} from "../constants/CONSTANTS";
-import {assign} from "rxjs/util/assign";
 import {AlbumModel} from "../models/album.model";
 import {ArtistModel} from "../models/artist.model";
 import {TrackModel} from "../models/track.model";
+import {SearchCacheModel} from "../models/searchCache.model";
 
 
 @Injectable()
 export class DataStorage {
     private _searchData:BehaviorSubject<List<any>> = new BehaviorSubject(List([]));
+    private _searchQuery:BehaviorSubject<SearchCacheModel> = new BehaviorSubject(new SearchCacheModel());
 
     constructor(private backend: BackendService) { }
 
@@ -21,7 +21,17 @@ export class DataStorage {
         return this._searchData.asObservable();
     }
 
-    public searchFor({type, searchString}: {type:string, searchString:string}):void {
+    public getStuff(id:string):any {
+        return this._searchData.getValue().filter((obj:any) => obj.id === id);
+    }
+
+    public searchCache():any {
+        return this._searchQuery.getValue();
+    }
+
+    public searchFor({type, searchString}: SearchCacheModel):void {
+        this._searchQuery.next({type, searchString});
+
         this.backend.search(type, searchString)
             .map((res:any) => res[Object.keys(res)[0]])
             .subscribe(

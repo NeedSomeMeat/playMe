@@ -1,0 +1,34 @@
+.music-stuff-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+  }
+
+  &-info{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 90%;
+
+    .play {
+      font-size: 70px;
+    }
+
+    h4 {
+      padding-top: 2%;
+    }
+  }
+}
+
+.music-stuff-content:hover {
+  img {
+    opacity: .5;
+  }
+}

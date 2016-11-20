@@ -1,27 +1,31 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {IPage} from "../pages.interface";
 import {DataStorage} from "../../services/dataStorage.service";
+import {SearchCacheModel} from "../../models/searchCache.model";
 
 @Component({
     selector: 'search-page',
     template: `
 <div>
-    <search (searchModel)="searchModelHandler($event)"></search>
+    <search (searchModel)="searchModelHandler($event)" [searchCache]="searchCache"></search>
     <music-stuff-container [data]="store.searchData | async"></music-stuff-container>
 </div>
   `
 })
-export class SearchPage implements IPage {
+export class SearchPage implements IPage, OnInit {
+    private searchCache: SearchCacheModel;
     public title: string = 'Explore Sound';
-    public button: any = 'Find';
+    public sharedButton: string = 'search';
 
-    constructor(private store: DataStorage) {
-        store.searchData.subscribe((res:any) =>
-            console.log('SSS ', res)
-        )
+    constructor(private store: DataStorage) { }
+
+    public ngOnInit():void {
+        let cache:SearchCacheModel = this.store.searchCache();
+        if(cache)
+            this.searchCache = cache;
     }
 
-    private searchModelHandler(searchParams: any): void {
+    private searchModelHandler(searchParams: SearchCacheModel): void {
         this.store.searchFor(searchParams);
     }
 

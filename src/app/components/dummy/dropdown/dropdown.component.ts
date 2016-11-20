@@ -21,17 +21,19 @@ import {Component, Input, Output, EventEmitter, AfterViewInit, OnDestroy} from '
 })
 export class Dropdown implements AfterViewInit, OnDestroy {
     @Input() options: Array<any> = [];
+    @Input() marker: string = "";
     @Output() selected: EventEmitter<any> = new EventEmitter();
     private expanded: boolean = false;
     private subscriber: any;
-    private marker: string;
 
     constructor() {
         this.subscriber = this.selected.subscribe((type:string) => this.marker = type)
     }
 
     public ngAfterViewInit():void {
-        this.selected.emit(this.options[0]);
+        this.marker ?
+            this.selected.emit(this.marker):
+            this.selected.emit(this.options[0]);
     }
 
     public ngOnDestroy():void {

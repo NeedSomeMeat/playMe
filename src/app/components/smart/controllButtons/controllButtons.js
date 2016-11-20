@@ -11,11 +11,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var controlButtons = (function () {
     function controlButtons() {
+        this.icons = [
+            'favourite',
+            'spotify',
+            'download',
+            'fire'
+        ];
     }
     controlButtons = __decorate([
         core_1.Component({
             selector: 'control-buttons',
-            template: "\n  <action-button (clicked)=\"$event\"></action-button>\n  "
+            styleUrls: ['./controllButtons.less'],
+            template: "\n<div class=\"controll-buttons\">\n  <action-button *ngFor=\"let icon of icons\" [icon]=\"icon\" (clicked)=\"$event\"></action-button>\n</div>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], controlButtons);

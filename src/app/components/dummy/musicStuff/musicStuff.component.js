@@ -9,19 +9,31 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var musicStuff_model_1 = require("../../../models/musicStuff.model");
 var MusicStuff = (function () {
     function MusicStuff() {
-        this.params = {};
+        this.params = new musicStuff_model_1.MusicStuffModel();
+        this.playing = false;
+        this.clicked = new core_1.EventEmitter();
     }
     __decorate([
         core_1.Input(), 
-        __metadata('design:type', Object)
+        __metadata('design:type', musicStuff_model_1.MusicStuffModel)
     ], MusicStuff.prototype, "params", void 0);
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Boolean)
+    ], MusicStuff.prototype, "playing", void 0);
+    __decorate([
+        core_1.Output(), 
+        __metadata('design:type', core_1.EventEmitter)
+    ], MusicStuff.prototype, "clicked", void 0);
     MusicStuff = __decorate([
         core_1.Component({
             selector: 'music-stuff',
+            encapsulation: core_1.ViewEncapsulation.None,
             styleUrls: ['musicStuff.component.less'],
-            template: "\n<div class=\"music-stuff-content\">\n    <img [src]=\"params.img\" alt=\"\">\n    <div class=\"music-stuff-content-info\">\n        <span class=\"play glyphicon glyphicon-play\" aria-hidden=\"true\"></span>\n        <h2>{{params.name}}</h2>\n        <h4 class=\"text-success\">\n            <span *ngFor=\"let item of params.subName\">{{item.name}}</span>\n        </h4>\n    </div>\n</div>\n  "
+            template: "\n<div class=\"music-stuff-content\" (click)=\"clicked.emit()\">\n    <img [src]=\"params?.img\" alt=\"\">\n    <div class=\"music-stuff-content-info\">\n        <span *ngIf=\"params?.song\" class=\"play glyphicon\" \n        [ngClass]=\"{'glyphicon-play-circle': !playing, 'glyphicon-pause-circle': playing}\"></span>\n        <h2>{{params?.name}}</h2>\n        <h4 class=\"text-success\">\n            <span *ngFor=\"let item of params?.subName\">{{item.name}}</span>\n        </h4>\n    </div>\n</div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], MusicStuff);

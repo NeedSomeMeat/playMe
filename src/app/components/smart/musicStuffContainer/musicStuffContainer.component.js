@@ -9,33 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var album_model_1 = require("../../../models/album.model");
-var artist_model_1 = require("../../../models/artist.model");
-var track_model_1 = require("../../../models/track.model");
+var router_1 = require("@angular/router");
+var helper_service_1 = require("../../../services/helper.service");
 var MusicStuffContainer = (function () {
-    function MusicStuffContainer() {
+    function MusicStuffContainer(router, helper) {
+        this.router = router;
+        this.helper = helper;
     }
-    MusicStuffContainer.prototype.chooseData = function (item) {
-        switch (item.constructor) {
-            case album_model_1.AlbumModel:
-                return {
-                    img: item.images.length ? item.images[0].url : '',
-                    name: item.name,
-                    subName: item.artists
-                };
-            case artist_model_1.ArtistModel:
-                return {
-                    img: item.images.length ? item.images[0].url : '',
-                    name: item.name,
-                    subName: item.genres
-                };
-            case track_model_1.TrackModel:
-                return {
-                    img: item.album.images.length ? item.album.images[0].url : '',
-                    name: item.name,
-                    subName: item.artists
-                };
-        }
+    MusicStuffContainer.prototype.goToInfo = function (_a) {
+        var type = _a.type, id = _a.id;
+        this.router.navigate([("/" + type), id]);
     };
     __decorate([
         core_1.Input(), 
@@ -44,10 +27,11 @@ var MusicStuffContainer = (function () {
     MusicStuffContainer = __decorate([
         core_1.Component({
             selector: 'music-stuff-container',
+            encapsulation: core_1.ViewEncapsulation.None,
             styleUrls: ['./musicStuffContainer.component.less'],
-            template: "\n<div class=\"music-stuff-container\">\n  <music-stuff *ngFor=\"let stuff of data\" [params]=\"chooseData(stuff)\"></music-stuff>\n</div>\n  "
+            template: "\n<div class=\"music-stuff-container\">\n  <music-stuff *ngFor=\"let stuff of data\" [params]=\"helper.chooseData(stuff)\" (clicked)=\"goToInfo(stuff)\"></music-stuff>\n</div>\n  "
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [router_1.Router, helper_service_1.HelperService])
     ], MusicStuffContainer);
     return MusicStuffContainer;
 }());

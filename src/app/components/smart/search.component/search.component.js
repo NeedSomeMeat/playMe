@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var searchCache_model_1 = require("../../../models/searchCache.model");
 var Search = (function () {
     function Search() {
         var _this = this;
@@ -16,6 +17,7 @@ var Search = (function () {
         this.selectedType = new core_1.EventEmitter();
         this.searchString = new core_1.EventEmitter();
         this.searchParam = {};
+        this.cachedType = '';
         this.options = [
             'Track',
             'Album',
@@ -23,10 +25,15 @@ var Search = (function () {
         ];
         this.subscriberSearchModel = this.selectedType
             .combineLatest(this.searchString, function (type, searchString) {
-            return { type: type, searchString: searchString };
+            return new searchCache_model_1.SearchCacheModel(type, searchString);
         })
             .subscribe(function (searchParams) { return _this.searchModel.emit(searchParams); });
     }
+    Search.prototype.ngOnInit = function () {
+        var _a = this.searchCache, type = _a.type, searchString = _a.searchString;
+        this.searchParam.search = searchString;
+        this.cachedType = type;
+    };
     Search.prototype.ngAfterViewInit = function () {
         var _this = this;
         this.subscriberSearch = this.searchForm.control.valueChanges
@@ -61,11 +68,15 @@ var Search = (function () {
         core_1.Output(), 
         __metadata('design:type', core_1.EventEmitter)
     ], Search.prototype, "searchModel", void 0);
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', searchCache_model_1.SearchCacheModel)
+    ], Search.prototype, "searchCache", void 0);
     Search = __decorate([
         core_1.Component({
             selector: 'search',
             styleUrls: ['./search.component.less'],
-            template: "\n<form #searchForm=\"ngForm\" class=\"search-block\">\n  <input #input type=\"search\" [(ngModel)]=\"searchParam.search\" name=\"search\" ngControl=\"search\" autofocus>\n  <dropdown [options]=\"options\" (selected)=\"selectType($event)\"></dropdown>\n</form>\n  "
+            template: "\n<form #searchForm=\"ngForm\" class=\"search-block\">\n  <input #input type=\"search\" [(ngModel)]=\"searchParam.search\" name=\"search\" ngControl=\"search\" autofocus>\n  <dropdown [options]=\"options\" [marker]=\"cachedType\" (selected)=\"selectType($event)\"></dropdown>\n</form>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], Search);

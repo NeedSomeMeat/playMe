@@ -9,15 +9,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var common_1 = require('@angular/common');
+var dataStorage_service_1 = require("../../services/dataStorage.service");
+var router_1 = require("@angular/router");
+require('rxjs/operator/switchMap');
 var InfoPage = (function () {
-    function InfoPage() {
+    function InfoPage(store, route, location) {
+        this.store = store;
+        this.route = route;
+        this.location = location;
+        this.title = 'Info';
     }
+    InfoPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.params
+            .switchMap(function (params) { return _this.store.getStuff(params['id']); })
+            .subscribe(function (object) { return _this.stuff = object; });
+    };
+    InfoPage.prototype.backButton = function () {
+        // this.location.back();
+    };
     InfoPage = __decorate([
         core_1.Component({
             selector: 'info-page',
-            template: "\n  <!--<info-content></info-content>-->\n  <!--<audio-sound></audio-sound>-->\n  <control-buttons></control-buttons>\n  <scroll-content></scroll-content>\n  "
+            template: "\n<music-block [data]=\"stuff\"></music-block>\n<scroll-content></scroll-content>\n  "
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [dataStorage_service_1.DataStorage, router_1.ActivatedRoute, common_1.Location])
     ], InfoPage);
     return InfoPage;
 }());

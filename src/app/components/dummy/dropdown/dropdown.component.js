@@ -13,12 +13,15 @@ var Dropdown = (function () {
     function Dropdown() {
         var _this = this;
         this.options = [];
+        this.marker = "";
         this.selected = new core_1.EventEmitter();
         this.expanded = false;
         this.subscriber = this.selected.subscribe(function (type) { return _this.marker = type; });
     }
     Dropdown.prototype.ngAfterViewInit = function () {
-        this.selected.emit(this.options[0]);
+        this.marker ?
+            this.selected.emit(this.marker) :
+            this.selected.emit(this.options[0]);
     };
     Dropdown.prototype.ngOnDestroy = function () {
         this.subscriber.unsubscribe();
@@ -34,6 +37,10 @@ var Dropdown = (function () {
         core_1.Input(), 
         __metadata('design:type', Array)
     ], Dropdown.prototype, "options", void 0);
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', String)
+    ], Dropdown.prototype, "marker", void 0);
     __decorate([
         core_1.Output(), 
         __metadata('design:type', core_1.EventEmitter)
